@@ -8,7 +8,7 @@ st.set_page_config(page_title="Well Data App", layout="wide")
 st.sidebar.title("Navigation")
 page = st.sidebar.radio("Go to", ["Home", "Well Map Viewer", "➕ Add New Well", "✏️ Edit Well Data"])
 
-file_path = r"E:\Python\Parez\Wells detailed data.xlsx - Wells detailed data.csv"
+file_path = r"wells.csv"
 
 # ──────────────── LOAD DATA ────────────────
 if not os.path.exists(file_path):
